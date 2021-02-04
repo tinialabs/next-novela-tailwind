@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://novela.tinia.vercel.app/
+
+# Sitemaps
+Sitemap: https://novela.tinia.vercel.app/sitemap.xml
