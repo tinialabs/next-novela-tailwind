@@ -29,7 +29,7 @@
     "@tailwindcss/typography": "^0.4.0",
     "tailwindcss": "^2.0.2",
     "twstyled": "^2.0.2",
-    "@twstyled/babel-plugin": "^2.0.3"
+    "@twstyled/next": "^3.0.2"
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^4.1.0",
@@ -48,6 +48,7 @@
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "sharp": "^0.27.0",
+    "stylis": "^4.0.7",
     "typescript": "^4.1.3",
     "webpack": "^5.17.0"
   },

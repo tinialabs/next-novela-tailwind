@@ -3,7 +3,7 @@ const { withPlugins } = require('next-compose-plugins');
 // next.config.js
 module.exports = withPlugins(
   [
-    require('next-linaria-babel'),
+    require('@twstyled/next'),
     require('next-svg-inline-loader'),
     require('next-favicon-loader'),
     require('next-image-meta-loader'),

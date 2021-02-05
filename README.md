@@ -139,7 +139,7 @@ The recommended project structure for your content and site looks like this:
 
 You must add `next-theme-novela-tw` and `next-lib-content` as package.json dependencies or .meta sub-projects.  We use the latter in all examples
 
-We also require `next-favicon-loader`, `next-image-meta-loader`, `next-svg-inline-loader` and `next-linaria-babel` as next.js plugins, `twstyled` for babel, and use `next-compose-plugins` to
+We also require `next-favicon-loader`, `next-image-meta-loader`, `next-svg-inline-loader` and `@twstyled/next` as next.js plugins, `twstyled` for babel, and use `next-compose-plugins` to
 add these to your next-config.js file.   These generate the favicons/site manifest, as well as provide the ability to import images directly from the `content` tree  right next to the assocated markdown, instead of the Next.js default of having to put them in the `public` folder.
 
 ```js

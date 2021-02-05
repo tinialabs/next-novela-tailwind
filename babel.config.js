@@ -2,7 +2,7 @@
 
 module.exports = {
     presets: [
-        'next-linaria-babel/preset',
+        '@twstyled/next/preset',
         [
             'next/babel',
             {
@@ -12,5 +12,5 @@ module.exports = {
             }
         ],
     ],
-    plugins: ['@twstyled/babel-plugin'],
+    plugins: [],
 }
