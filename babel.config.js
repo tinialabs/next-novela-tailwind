@@ -2,7 +2,7 @@
 
 module.exports = {
     presets: [
-        '@twstyled/next/preset',
+        '@twstyled/babel-preset',
         [
             'next/babel',
             {

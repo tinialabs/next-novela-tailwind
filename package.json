@@ -28,8 +28,8 @@
     "react-dom": "^17.0.1",
     "@tailwindcss/typography": "^0.4.0",
     "tailwindcss": "^2.0.2",
-    "twstyled": "^2.0.2",
-    "@twstyled/next": "^3.0.2"
+    "twstyled": "^3.0.5",
+    "@twstyled/next": "^3.0.5"
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^4.1.0",
@@ -61,7 +61,8 @@
   "private": true,
   "workspaces": [
     "next-lib-content",
-    "next-theme-novela-tw"
+    "next-theme-novela-tw",
+    "twstyled/packages/*"
   ],
   "license": "MIT"
 }
