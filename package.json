@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "preinstall": "npx meta git update",
-    "clean": "rimraf yarn.lock && rimraf ./**/.next && rimraf ./**/out && rimraf {*/,}node_modules",
+    "clean": "rimraf yarn.lock && rimraf ./**/.next && rimraf ./**/out && rimraf {**/,}node_modules",
     "dev": "BROWSERSLIST_IGNORE_OLD_DATA=false next dev",
     "dev:watch": "next-remote-watch ./content",
     "build": "NODE_ENV=production BROWSERSLIST_IGNORE_OLD_DATA=false next build",
@@ -53,6 +53,7 @@
     "webpack": "^5.17.0"
   },
   "resolutions": {
+    "@linaria/babel-preset": "npm:@twstyled/linaria-babel-preset@3.0.0-beta.1.b",
     "loader-utils": "^2.0.0",
     "js-yaml": "3.14.1",
     "sharp": "0.27.0",
@@ -62,6 +63,7 @@
   "workspaces": [
     "next-lib-content",
     "next-theme-novela-tw",
+    "twstyled/packages/*",
     "twstyled/packages/*"
   ],
   "license": "MIT"
