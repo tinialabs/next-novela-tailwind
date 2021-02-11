@@ -37,6 +37,8 @@ yarn-error.log*
 
 # twstyled
 .twstyled-cache
+public/sitemap.xml
+public/robots.txt
 
 # Meta
 /next-lib-content/
