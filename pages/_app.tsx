@@ -12,8 +12,8 @@ import 'lazysizes/plugins/parent-fit/ls.parent-fit'
 import 'lazysizes/plugins/respimg/ls.respimg'
 
 // STYLES
-import '@/theme/theme-tw/global.css'
 import './global.twstyled.css'
+import '@/theme/theme-tw/global.css'
 import '@/content/theme/favicon.png'
 
 export const App: FC<AppProps> = ({

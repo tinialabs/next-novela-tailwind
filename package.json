@@ -27,9 +27,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "@tailwindcss/typography": "^0.4.0",
-    "tailwindcss": "^2.0.2",
-    "twstyled": "^3.0.5",
-    "@twstyled/next": "^3.0.5"
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^4.1.0",
@@ -50,10 +48,13 @@
     "sharp": "^0.27.0",
     "stylis": "^4.0.7",
     "typescript": "^4.1.3",
+    "@twstyled/babel-preset": "^3.1.3",
+    "@twstyled/next": "^3.1.4",
     "webpack": "^5.17.0"
   },
   "resolutions": {
-    "@linaria/babel-preset": "npm:@twstyled/linaria-babel-preset@3.0.0-beta.1.b",
+    "@linaria/babel-preset": "npm:@twstyled/linaria-babel-preset@3.0.0-beta.1",
+    "@linaria/preeval": "npm:@twstyled/linaria-preeval@3.0.0-beta.1",
     "loader-utils": "^2.0.0",
     "js-yaml": "3.14.1",
     "sharp": "0.27.0",

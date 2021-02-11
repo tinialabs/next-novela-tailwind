@@ -35,17 +35,12 @@ yarn-error.log*
 # vercel
 .vercel
 
-# linaria
-.linaria-cache
+# twstyled
+.twstyled-cache
 
 # Meta
-/next-favicon-loader/
-/next-image-meta-loader/
-/twstyled/
 /next-lib-content/
 /next-theme-novela-tw/
-/linaria/
 
 # secrets
 .env-secrets.json
-UNUSED-evaluate/
